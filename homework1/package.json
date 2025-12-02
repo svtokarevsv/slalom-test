@@ -1,0 +1,17 @@
+{
+  "name": "slalom-test",
+  "version": "1.0.0",
+  "description": "A minimal static web application displaying a collection of technology terms and definitions.",
+  "type": "module",
+  "main": "glossary.js",
+  "scripts": {
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^4.0.15"
+  }
+}

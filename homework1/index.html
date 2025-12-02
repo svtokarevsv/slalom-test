@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Glossary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <header class="bg-white shadow-sm">
+        <div class="max-w-4xl mx-auto px-4 py-6">
+            <h1 class="text-3xl font-bold text-gray-900">Tech Glossary</h1>
+            <p class="text-gray-600 mt-2">A collection of technology terms and definitions</p>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-8">
+        <div class="mb-6">
+            <input 
+                type="text" 
+                id="search-input" 
+                placeholder="Search terms, descriptions, or tags..." 
+                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder-gray-500"
+            >
+        </div>
+        <div id="glossary-container" class="space-y-4">
+            <!-- Glossary entries will be rendered here by JavaScript -->
+        </div>
+    </main>
+
+    <script src="glossary.js"></script>
+</body>
+</html>
+

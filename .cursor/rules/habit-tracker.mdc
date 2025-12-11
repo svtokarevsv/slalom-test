@@ -1,0 +1,25 @@
+---
+alwaysApply: false
+---
+# Habit Tracker Development Guidelines
+
+## TypeScript & Component Architecture
+
+- **Always use TypeScript**: All files must have proper type definitions
+- **Small, focused components**: Each component should have a single responsibility
+- **Type safety**: Define interfaces for all props and data structures
+- **No `any` types**: Use proper types or `unknown` with type guards
+
+## Development Principles
+
+- **Follow @anti-pitfall-guidelines**: Apply MVP-first, dependency-aware, iterative approach
+- **Stay within MVP scope**: Refer to @.cursor/plans/habit-tracker-mvp.md for approved features
+- **Avoid scope creep**: Features listed in "Out of Scope" section should not be implemented
+
+
+## Component Guidelines
+
+- Keep components under 150 lines when possible
+- Extract reusable logic into utility functions
+- Use React hooks (`useState`, `useEffect`, `useMemo`) appropriately
+- Prefer composition over complex prop drilling
